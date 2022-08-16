@@ -1,0 +1,41 @@
+.container-fluid {
+   
+    font-family: 'Playfair Display', serif;
+    color: #29325d;
+    
+
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #navbarSupportedContent {
+   
+        display: inline !important;
+        
+        }
+
+    .titulo_principal {
+   
+        position: relative;
+        left: 300px;
+        
+        }
+
+    h1 {
+   
+        font-size: 60px !important;
+        
+        }
+
+
+}
+#ul_barra {
+    list-style-type: none;
+    display: flex !important; 
+    flex-direction: row-reverse;
+    margin: 0 0 0 0 !important;
+    padding-left: 0;
+    word-spacing: 9px !important;
+
+
+}

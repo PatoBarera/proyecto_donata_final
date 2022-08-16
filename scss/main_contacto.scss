@@ -1,0 +1,59 @@
+.main_contacto {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #29325d;
+    font-family: 'Bebas Neue', cursive;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+    .div_contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h2 {
+            color:#f68546;
+            text-align: center;
+            font-size: 60px;
+         }
+    
+
+        h3 {
+            color: white;
+            text-align: center;
+         }
+    }
+
+    .div_form {
+        display: flex;
+        flex-direction: column;
+        color: #f68546;
+        margin-right: 40px;
+        padding-right: 30px;
+        border-right: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+
+        .mb-3 {
+            width: 350px;
+            color: #f68546;
+            text-align: center;
+            margin-right: 0 !important;
+            padding-right: 0 !important;
+            position: relative;
+            left: 150px;
+
+
+        }
+    
+    }
+
+}
+
+#boton_contacto {
+    position: relative;
+    left: 150px ;
+}

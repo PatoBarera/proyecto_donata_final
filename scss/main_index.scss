@@ -1,0 +1,64 @@
+.descuento1 {
+    border: #f68546;
+    padding: 3px 3px 3px 3px;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 6px ;
+    margin-left: 15px;
+
+    transition-duration: .5s;
+    transition-timing-function: ease;
+  
+    
+}
+
+.descuento1:hover {
+    transform: scale(1.03);
+   
+
+}
+
+.descuentos {
+
+    margin-top: 20px;
+
+    .texto1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        color: #f68546;
+        background-color:#29325d ;
+        position: relative;
+        padding-top: 0;
+        bottom: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+}
+
+
+.subtitulos {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: white;
+    background-color:#29325d;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.populares {
+    margin-top: 20px;
+
+    .texto2 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        color: #f68546;
+        background-color:#29325d ;
+        position: relative;
+        padding-top: 0;
+        bottom: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
