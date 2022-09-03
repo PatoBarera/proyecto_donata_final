@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estado de Compra</title>
+
+    <title>Remeras</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -29,13 +31,12 @@
      <link rel="stylesheet" href="css/pruebacss.css">
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg bg-light">
 
         <div class="container-fluid">
 
           <div class="contenedor_logo">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#">
                 <img src="imagenes/logo2.jpeg" alt="logo_donata" width="90" height="90" class="logo3">
             </a>
           </div>
@@ -57,7 +58,7 @@
                   PRODUCTOS
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="calzas.html">CALZAS</a></li>
+                  <li><a class="dropdown-item" href="remeras.html">CALZAS</a></li>
                   <li><a class="dropdown-item" href="buzos_camperas.html">BUZOS Y CAMPERAS</a></li>
                   <li><a class="dropdown-item" href="tops.html">TOPS</a></li>
                   <li><a class="dropdown-item" href="remeras.html">REMERAS</a></li>
@@ -69,36 +70,60 @@
         </div>
       </nav>
 
+  <main class="contenedor">
 
-      <main class="main_1">
+    <div class="card" style="width: 18rem;">
+        <img src="imagenes/Productos/Remeras/musculosa_nb.jpeg" class="card-img-top" alt="musculosa_nb">
+        <div class="card-body">
+          <h5 class="card-title">Musculosa NB</h5>
+          <p class="card-text">$2.000</p>
+          <a href="#" class="btn btn-primary">Ver el producto</a>
+        </div>
+      </div>
 
-        <h3 class="h3_1">Consulta el estado de tu compra ingresando el número asignado y te respondemos a tu mail</h3>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/Productos/Remeras/remera_basic_termica.jpeg" class="card-img-top" alt="basic_termica">
+        <div class="card-body">
+          <h5 class="card-title">Remera Basic Térmica</h5>
+          <p class="card-text">$2.800</p>
+          <a href="#" class="btn btn-primary">Ver el producto</a>
+        </div>
+      </div>
 
-        <form class="form_1">
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/Productos/Remeras/remera_chula_2.jpeg" class="card-img-top" alt="buzo_mojito" width="286" height="381">
+        <div class="card-body">
+          <h5 class="card-title">Remera Chula</h5>
+          <p class="card-text">$3.400</p>
+          <a href="#" class="btn btn-primary">Ver el producto</a>
+        </div>
+      </div>
 
-            
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Dirección Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-            </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/Productos/Remeras/remeron_rawr.jpeg" class="card-img-top" alt="remeron_rawr" width="286" height="381">
+        <div class="card-body">
+          <h5 class="card-title">Remerón Rawr</h5>
+          <p class="card-text">$3.400</p>
+          <a href="#" class="btn btn-primary">Ver el producto</a>
+        </div>
+      </div>
 
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Número de Compra</label>
-              <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Nº de compra">
-            </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/Productos/Remeras/sudadera_club_2.jpeg" class="card-img-top" alt="sudadera_club" width="286" height="381">
+        <div class="card-body">
+          <h5 class="card-title">Sudadera Club</h5>
+          <p class="card-text">$3.400</p>
+          <a href="#" class="btn btn-primary">Ver el producto</a>
+        </div>
+      </div>
+    </main>
 
-            <button type="submit" class="btn btn-primary">CONSULTAR</button>
 
-          </form>
-      </main>
-
-
-      <footer class="pie_2">
+    <footer class="pie_2">
         <div>
             <h3 class="h3_footer">Donata Indumentaria SRL // Todos los derechos reservados</h3>
             <div class="navegador2_1">
-                <ul class="navegador2">
-                    <li> 
+                <ul class="navegador2"> 
                       <div>
                         <h4>Medios de Pago</h4>
                         <img src="imagenes/mastercard.jpg" alt="mastercard" width="30" height="30">
@@ -106,7 +131,6 @@
                         <img src="imagenes/visa.png" alt="visa" width="30" height="30">
                         <img src="imagenes/cabal.png" alt="cabal" width="30" height="30">
                       </div>   
-                    </li>
                     <li>
                         <a href="estado_compra.html" style="text-decoration: none;" class="estadocompra">Estado de compra</a>
                     </li>
@@ -126,6 +150,7 @@
                     
         </div>
     </footer>
+
 
  <!-- Script Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>   

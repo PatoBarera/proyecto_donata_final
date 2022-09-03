@@ -1,0 +1,21 @@
+.contenedor {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    padding-top: 50px;
+
+
+    .card {
+
+        .card-body {
+          
+            color: #f68546;
+            a {
+                background-color: #f68546; 
+                
+            }
+        }
+    }
+    
+}

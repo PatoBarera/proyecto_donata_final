@@ -1,0 +1,21 @@
+
+ .contenedor_descuentos {
+
+        
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        #carouselExampleCaptions {
+
+            padding-right: 300px ; 
+        }
+    
+        .texto {
+    
+            text-align: center;
+            background-color: brown;
+            padding-left: 700px;
+        }
+    }
+
