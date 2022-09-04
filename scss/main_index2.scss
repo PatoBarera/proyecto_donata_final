@@ -1,21 +1,59 @@
 
- .contenedor_descuentos {
+.main_1 {
+    background-color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-        
+     .izquierda {
+
+        background: linear-gradient(#f68546, #29325d);
+        display: flex;
+        place-items: center;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 15px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 90px;
+            color: white;
+         }
+          
+        h3  {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 60px;
+            color: white;
+         }
+
+         }
+}
+
+
+.main_2 {
+     text-align: center;
+
+     .aprovecha {
+
+        background-color: #29325d;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        color: #f68546;
+     }
+
+     h2 {
+        margin-bottom: 0;
+        background-color: #29325d;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px;
+        color: white;
+     }
+     
+    .imagenes {
+
         display: flex !important;
         flex-direction: row;
-        justify-content: space-around;
-        
-        #carouselExampleCaptions {
-
-            padding-right: 300px ; 
-        }
-    
-        .texto {
-    
-            text-align: center;
-            background-color: brown;
-            padding-left: 700px;
-        }
+        justify-content: space-evenly;
     }
+}
 
+        
+       

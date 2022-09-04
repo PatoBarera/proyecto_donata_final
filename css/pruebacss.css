@@ -273,16 +273,42 @@
       position: relative;
       left: 150px; }
 
-.contenedor_descuentos {
-  display: flex !important;
-  flex-direction: row;
-  justify-content: space-around; }
-  .contenedor_descuentos #carouselExampleCaptions {
-    padding-right: 300px; }
-  .contenedor_descuentos .texto {
-    text-align: center;
-    background-color: brown;
-    padding-left: 700px; }
+.main_1 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .main_1 .izquierda {
+    background: linear-gradient(#f68546, #29325d);
+    display: flex;
+    place-items: center;
+    text-align: center; }
+    .main_1 .izquierda h2 {
+      margin-bottom: 15px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 90px;
+      color: white; }
+    .main_1 .izquierda h3 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 60px;
+      color: white; }
+
+.main_2 {
+  text-align: center; }
+  .main_2 .aprovecha {
+    background-color: #29325d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #f68546; }
+  .main_2 h2 {
+    margin-bottom: 0;
+    background-color: #29325d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: white; }
+  .main_2 .imagenes {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly; }
 
 .contenedor {
   display: flex !important;
