@@ -1,5 +1,6 @@
 
 .main_1 {
+   margin-bottom: 15px;
     background-color: white; 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,6 +54,24 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .card {
+
+      .card-body {
+         font-family: 'Bebas Neue', cursive;
+         font-size: 20px;
+         color: #f68546;
+      }
+
+      a {
+
+         color: white;
+         background-color: #f68546;   
+
+      }
+
+    }
+
 }
 
         
