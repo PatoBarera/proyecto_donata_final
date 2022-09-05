@@ -114,3 +114,33 @@
     height: 670px;
 
  }  
+
+
+ @media screen and (max-width: 1024px) {
+
+    .descripcion_producto {
+       
+        position: relative;
+        top: 5px;
+    }
+
+    .talles_3 {
+
+        .form_cantidad {
+
+            position: relative;
+            bottom: 120px;
+            left: 120px;
+        }
+       
+     .form_form {
+      
+        position: relative;
+        bottom: 40px;
+        left: 10px;
+
+     }   
+
+
+    }
+ }

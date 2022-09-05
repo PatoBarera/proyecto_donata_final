@@ -23,6 +23,14 @@
   padding-left: 0;
   word-spacing: 9px !important; }
 
+@media screen and (max-width: 1024px) {
+  div h1 {
+    font-size: 20px;
+    position: relative;
+    right: 150px; }
+  #nav_principal {
+    margin-right: 40px; } }
+
 .main_contacto {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -63,6 +71,10 @@
 #boton_contacto {
   position: relative;
   left: 150px; }
+
+@media screen and (max-width: 768px) {
+  .div_form {
+    margin-right: 150px !important; } }
 
 .pie_2 {
   background-color: #29325d;
@@ -238,6 +250,19 @@
   padding: 3px 3px 3px 150px;
   width: 600px;
   height: 670px; }
+
+@media screen and (max-width: 1024px) {
+  .descripcion_producto {
+    position: relative;
+    top: 5px; }
+  .talles_3 .form_cantidad {
+    position: relative;
+    bottom: 120px;
+    left: 120px; }
+  .talles_3 .form_form {
+    position: relative;
+    bottom: 40px;
+    left: 10px; } }
 
 .main_12 {
   background-color: #29325d;
