@@ -65,53 +65,23 @@
    
 
    }
+   
 
-   @media screen and (max-width: 425px) {
+   
+  /* @media screen and (min-width: 425px) {
+    
+    .form_1 {
 
+      margin-right: 0px;
+      position: relative;
+      right: 500px;
 
-    .main_12{
-        
-        display: flex;
-        
-        .form_1 {
-        
-            
-            
-           
-        
-          .mb-3 {
-            
-            width: 150px !important;
-            text-align: left;
-            font-size: 100px;
-            
+      #button_1 {
 
-
-            .form-label {
-                
-                position: relative !important;
-                left: 50px !important;
-                width: 40vw !important;
-                height: 40vh !important;
-                
-            }
-
-            .form-control {
-
-                position: relative !important;
-                left: 150px !important;
-                width: 40vw !important;
-                height: 40vh !important;
-            }
-            
-
- 
-          }
-
-        }   
-        
+        position: relative;
+        left: 250px;
+      }
     }
 
-
-
    }
+   */
