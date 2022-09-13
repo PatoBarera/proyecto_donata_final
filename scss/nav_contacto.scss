@@ -11,6 +11,7 @@
     #navbarSupportedContent {
    
         display: inline !important;
+    
 
         a {
 
@@ -66,6 +67,47 @@
         margin-right: 40px;
     }
 
+    .titulo_principal {
+   
+        h1 {
+   
+            font-size: 30px !important;
+            
+            }
+        
+        }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #navbarSupportedContent {
+
+     word-spacing: 20px;
+
+     #ul_barra {
+
+         display: flex !important;
+         justify-content: space-around;
+
+         
+     }
+
+    }
+    
+    .titulo_principal {
+   
+        h1 {
+      
+            font-size: 30px !important;
+           display: none;
+            
+            }
+        
+        }
 
 
 }

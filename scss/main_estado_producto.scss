@@ -38,3 +38,80 @@
        }
 
    }
+
+
+   @media screen and (max-width: 768px) {
+
+    .main_12{
+        
+        
+        
+        .form_1 {
+        
+            padding: 0 0 0 0;
+           
+        
+          .mb-3 {
+            text-align: center;  
+            
+
+ 
+          }
+
+        }   
+        
+    }
+
+   
+
+   }
+
+   @media screen and (max-width: 425px) {
+
+
+    .main_12{
+        
+        display: flex;
+        
+        .form_1 {
+        
+            
+            
+           
+        
+          .mb-3 {
+            
+            width: 150px !important;
+            text-align: left;
+            font-size: 100px;
+            
+
+
+            .form-label {
+                
+                position: relative !important;
+                left: 50px !important;
+                width: 40vw !important;
+                height: 40vh !important;
+                
+            }
+
+            .form-control {
+
+                position: relative !important;
+                left: 150px !important;
+                width: 40vw !important;
+                height: 40vh !important;
+            }
+            
+
+ 
+          }
+
+        }   
+        
+    }
+
+
+
+   }

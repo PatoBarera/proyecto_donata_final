@@ -144,3 +144,120 @@
 
     }
  }
+
+ @media screen and (max-width: 768px) {
+
+    .talles_3 {
+
+        .form_cantidad {
+
+            position: relative;
+            bottom: 120px;
+            left: 290px;
+        }
+       
+     .form_form {
+      
+        position: relative;
+        bottom: 40px;
+        left: 60px;
+
+     }   
+
+     #carrito_2 {
+
+        position: relative;
+        right: 150px;
+     }
+
+
+    }
+
+    .descripcion1 {
+
+        .fotos {
+    
+            padding: 0 0 0 0;
+    
+            width: 600px;
+            height: 670px;
+
+            #carouselExampleFade {
+                width: 600px;
+                height: 670px;
+                
+                .carousel-inner {
+
+                    width: 600px;
+                    height: 650px;
+
+                }
+
+
+            }
+    
+        }
+    }
+
+ }
+
+
+    /*   @media screen and (min-width: 425px) {
+
+    .talles_3 {
+
+        .form_cantidad {
+            color: white;
+            font-size: 20px;
+            margin-right: 100px;
+            padding: 10px 10px 10px 10px;
+            background-color: #29325d;
+            border: #f68546;
+            padding: 3px 3px 3px 3px;
+            border-radius: 8px;
+            border-style: groove;
+            border-width: 6px ;
+            position: relative;
+            bottom: 200px;
+            left: 20px;
+    
+            .select {
+                width: 30px;
+                height: 30px;
+                font-size: 15px;  
+              }
+        } 
+       
+     .form_form {
+      
+        position: relative;
+        bottom: 40px;
+        left: 150px;
+
+     }   
+
+     #carrito_2 {
+
+        position: relative;
+        right: 60px;
+        bottom: 90px;
+     }
+
+
+    }
+
+}
+
+.descripcion1 {
+
+    .fotos {
+
+        padding: 0 0 0 0;
+
+        width: 600px;
+        height: 670px;
+
+    }
+}
+
+*/

@@ -29,7 +29,19 @@
     position: relative;
     right: 150px; }
   #nav_principal {
-    margin-right: 40px; } }
+    margin-right: 40px; }
+  .titulo_principal h1 {
+    font-size: 30px !important; } }
+
+@media screen and (max-width: 768px) {
+  #navbarSupportedContent {
+    word-spacing: 20px; }
+    #navbarSupportedContent #ul_barra {
+      display: flex !important;
+      justify-content: space-around; }
+  .titulo_principal h1 {
+    font-size: 30px !important;
+    display: none; } }
 
 .main_contacto {
   margin-bottom: 20px;
@@ -74,7 +86,27 @@
 
 @media screen and (max-width: 768px) {
   .div_form {
-    margin-right: 150px !important; } }
+    margin-right: 150px !important; }
+  .div_contacto h3 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 425px) {
+  .main_contacto .div_form {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0 0 0; }
+    .main_contacto .div_form .mb-3 {
+      font-size: 10px; }
+      .main_contacto .div_form .mb-3 .form-control {
+        width: 20px !important;
+        height: 20px !important; }
+      .main_contacto .div_form .mb-3 .form-label {
+        width: 20px !important;
+        height: 20px !important; }
+  .main_contacto .div_contacto {
+    display: none; } }
 
 .pie_2 {
   background-color: #29325d;
@@ -264,6 +296,88 @@
     bottom: 40px;
     left: 10px; } }
 
+@media screen and (max-width: 768px) {
+  .talles_3 .form_cantidad {
+    position: relative;
+    bottom: 120px;
+    left: 290px; }
+  .talles_3 .form_form {
+    position: relative;
+    bottom: 40px;
+    left: 60px; }
+  .talles_3 #carrito_2 {
+    position: relative;
+    right: 150px; }
+  .descripcion1 .fotos {
+    padding: 0 0 0 0;
+    width: 600px;
+    height: 670px; }
+    .descripcion1 .fotos #carouselExampleFade {
+      width: 600px;
+      height: 670px; }
+      .descripcion1 .fotos #carouselExampleFade .carousel-inner {
+        width: 600px;
+        height: 650px; } }
+
+/*   @media screen and (min-width: 425px) {
+
+    .talles_3 {
+
+        .form_cantidad {
+            color: white;
+            font-size: 20px;
+            margin-right: 100px;
+            padding: 10px 10px 10px 10px;
+            background-color: #29325d;
+            border: #f68546;
+            padding: 3px 3px 3px 3px;
+            border-radius: 8px;
+            border-style: groove;
+            border-width: 6px ;
+            position: relative;
+            bottom: 200px;
+            left: 20px;
+    
+            .select {
+                width: 30px;
+                height: 30px;
+                font-size: 15px;  
+              }
+        } 
+       
+     .form_form {
+      
+        position: relative;
+        bottom: 40px;
+        left: 150px;
+
+     }   
+
+     #carrito_2 {
+
+        position: relative;
+        right: 60px;
+        bottom: 90px;
+     }
+
+
+    }
+
+}
+
+.descripcion1 {
+
+    .fotos {
+
+        padding: 0 0 0 0;
+
+        width: 600px;
+        height: 670px;
+
+    }
+}
+
+*/
 .main_12 {
   background-color: #29325d;
   padding-bottom: 15px; }
@@ -292,6 +406,30 @@
       padding-right: 0 !important;
       position: relative;
       left: 150px; }
+
+@media screen and (max-width: 768px) {
+  .main_12 .form_1 {
+    padding: 0 0 0 0; }
+    .main_12 .form_1 .mb-3 {
+      text-align: center; } }
+
+@media screen and (max-width: 425px) {
+  .main_12 {
+    display: flex; }
+    .main_12 .form_1 .mb-3 {
+      width: 150px !important;
+      text-align: left;
+      font-size: 100px; }
+      .main_12 .form_1 .mb-3 .form-label {
+        position: relative !important;
+        left: 50px !important;
+        width: 40vw !important;
+        height: 40vh !important; }
+      .main_12 .form_1 .mb-3 .form-control {
+        position: relative !important;
+        left: 150px !important;
+        width: 40vw !important;
+        height: 40vh !important; } }
 
 .main_1 {
   margin-bottom: 15px;
@@ -347,3 +485,28 @@
     color: #f68546; }
     .contenedor .card .card-body a {
       background-color: #f68546; }
+
+@media screen and (max-width: 768px) {
+  #card_1 {
+    display: none; }
+  #card_2 {
+    display: none; } }
+
+/* @media screen and (min-width: 425px) {
+
+    #card_1 {
+
+    display: none;
+
+    }
+
+    #card_2 {
+
+        display: none;
+    
+        }
+
+
+
+}
+*/
